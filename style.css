@@ -8,7 +8,14 @@ body{
     background-color: #011015;
     width: 100%;
     height: 100vh;
+    animation: fadeout 5s forwards;
 }
+@keyframes fadeout {
+    0% { opacity: 1;}
+    60% { opacity: 1;}
+    100% { opacity: 0;}
+}
+
 .container{
     position: relative;
     top: 40%;
