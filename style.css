@@ -12,7 +12,7 @@ body{
 }
 @keyframes fadeout {
     0% { opacity: 1;}
-    60% { opacity: 0.4;}
+    80% { opacity: 0.2;}
     100% { opacity: 0;}
 }
 
